@@ -11,7 +11,7 @@ import {
   IJoplinClient,
 } from '../../clients/joplin';
 
-const HOST = 'http://localhost:41184/';
+const HOST = 'https://note.franklan.com.au:41184/';
 
 export default class JoplinDocumentService implements DocumentService {
   private client?: Promise<IJoplinClient>;
